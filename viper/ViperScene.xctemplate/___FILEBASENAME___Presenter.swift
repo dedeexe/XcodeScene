@@ -8,14 +8,6 @@
 
 import Foundation
 
-protocol ___FILEBASENAME___Module {
-    func doSomething()
-}
-
-protocol ___FILEBASENAME___Output {
-    func fetch(something:String)
-}
-
 public class ___FILEBASENAME___Presenter {
     
     fileprivate weak var view   : ___FILEBASENAME___View?
@@ -38,17 +30,20 @@ public class ___FILEBASENAME___Presenter {
     
 }
 
+
+//MARK: - Presenter Delegates
 extension ___FILEBASENAME___Presenter : ___FILEBASENAME___Module {
-    func doSomething() {
+    public func doSomething() {
         assertDependencies()
         //Implements presenter actions here
     }
 
 }
 
+//MARK: - Output Interactor Delegate
 extension ___FILEBASENAME___Presenter : ___FILEBASENAME___Output {
-    func fetch(something:String)
+    public func fetch(something: String) {
         assertDependencies()
-        //Implements here what todo with arrived data
+        //Handle fetched data here
     }
 }

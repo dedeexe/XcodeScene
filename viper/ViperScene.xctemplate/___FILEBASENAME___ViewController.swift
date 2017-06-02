@@ -6,9 +6,6 @@
 //___COPYRIGHT___
 //
 
-
-import Foundation
-
 import UIKit
 
 class ___FILEBASENAME___ViewController: UIViewController {
@@ -36,6 +33,9 @@ class ___FILEBASENAME___ViewController: UIViewController {
     }
 }
 
-extension LoginViewController : LoginView {
-    
+//MARK: - View Delegate
+extension ___FILEBASENAME___ViewController : ___FILEBASENAME___View {
+    func show(something: String) {
+        //Implement what to show here
+    }
 }

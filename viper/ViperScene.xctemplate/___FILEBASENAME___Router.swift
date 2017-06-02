@@ -6,12 +6,9 @@
 //___COPYRIGHT___
 //
 
-
 import UIKit
 
-import UIKit
-
-public class ___FILEBASENAME___Router : ___FILEBASENAME___Wireframe {
+public class ___FILEBASENAME___Router {
     
     fileprivate weak var viewController : UIViewController?
     
@@ -29,4 +26,11 @@ public class ___FILEBASENAME___Router : ___FILEBASENAME___Wireframe {
         assertDependencies()
     }
     
+}
+
+//MARK: - Wireframe Delegate
+extension ___FILEBASENAME___Router : ___FILEBASENAME___Wireframe {
+    public func gotoSomeplace() {
+        //Implement the route here
+    }
 }

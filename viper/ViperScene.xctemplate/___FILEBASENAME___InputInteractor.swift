@@ -8,25 +8,20 @@
 
 import Foundation
 
-protocol ___FILEBASENAME___Input {
-    func get(something:String)
-}
-
-class ___FILEBASENAME___InputInteractor : ___FILEBASENAME___Input {
+public class ___FILEBASENAME___InputInteractor : ___FILEBASENAME___Input {
     
-    fileprivate weak var output : ___FILEBASENAME___nOutput?
+    fileprivate weak var output : ___FILEBASENAME___Output?
     
     public func inject(output:___FILEBASENAME___Output?) {
         self.output = output
     }
 
     private func assertDependencies() {
-   		assert(output != nil, "Did not set output to the interactor")
+   		assert(output != nil, "Did not set output to the input interactor")
     }
     
-    private func get(something:String) {
+    public func get(something:String) {
         assertDependencies()
-        
         //Implement how to get data here
     }
 
