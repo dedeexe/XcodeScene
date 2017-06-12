@@ -10,7 +10,7 @@ import UIKit
 
 class ___FILEBASENAME___ViewController: UIViewController {
 
-    fileprivate var presenter : ___FILEBASENAME___Presenter?
+    fileprivate var presenter : ___FILEBASENAME___Module?
     
     override func viewDidLoad() {
         super.viewDidLoad()
