@@ -23,7 +23,7 @@ public class ___FILEBASENAME___Configurator {
 //        User this another one
         let viewController = ___FILEBASENAME___ViewController()
 
-        let presenter = ___FILEBASENAME___Presenter(with: email)
+        let presenter = ___FILEBASENAME___Presenter()
         let router = ___FILEBASENAME___Router()
         let interactor = ___FILEBASENAME___InputInteractor()
         
