@@ -8,6 +8,6 @@
 
 import Foundation
 
-public protocol ___FILEBASENAME___Module {
+public protocol ___FILEBASENAME___Module : class {
     func doSomething()
 }
