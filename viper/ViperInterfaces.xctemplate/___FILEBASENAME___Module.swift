@@ -1,5 +1,5 @@
 //
-//  ___FILEBASENAME___Module
+//  ___VARIABLE_sceneName___Module
 //  ___PROJECTNAME___
 //
 //  Created by ___FULLUSERNAME___ on ___DATE___.
@@ -8,6 +8,6 @@
 
 import Foundation
 
-public protocol ___FILEBASENAME___Module : class {
+public protocol ___VARIABLE_sceneName___Module : class {
     func doSomething()
 }

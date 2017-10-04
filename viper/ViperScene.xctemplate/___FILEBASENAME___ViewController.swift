@@ -1,5 +1,5 @@
 //
-//  ___FILEBASENAME___ViewController.swift
+//  ___VARIABLE_sceneName___ViewController.swift
 //  ___PROJECTNAME___
 //
 //  Created by ___FULLUSERNAME___ on ___DATE___.
@@ -8,9 +8,9 @@
 
 import UIKit
 
-class ___FILEBASENAME___ViewController: UIViewController {
+class ___VARIABLE_sceneName___ViewController: UIViewController {
 
-    fileprivate var presenter : ___FILEBASENAME___Module?
+    fileprivate var presenter : ___VARIABLE_sceneName___Module?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,7 +23,7 @@ class ___FILEBASENAME___ViewController: UIViewController {
     }
     
     
-    public func inject(presenter:___FILEBASENAME___Presenter?) {
+    public func inject(presenter:___VARIABLE_sceneName___Presenter?) {
         self.presenter = presenter
     }
     
@@ -41,14 +41,14 @@ class ___FILEBASENAME___ViewController: UIViewController {
 }
 
 // MARK: - View Delegate
-extension ___FILEBASENAME___ViewController : ___FILEBASENAME___View {
+extension ___VARIABLE_sceneName___ViewController : ___VARIABLE_sceneName___View {
     func show(something: String) {
         //Implement what to show here
     }
 }
 
 // MARK: - Configurations
-extension ___FILEBASENAME___ViewController { 
+extension ___VARIABLE_sceneName___ViewController { 
     func startObservers() {
         let nc = NotificationCenter.default
         nc.addObserver(self, selector: #selector(showKeyboard), name: NSNotification.Name.UIKeyboardWillShow, object: nil)

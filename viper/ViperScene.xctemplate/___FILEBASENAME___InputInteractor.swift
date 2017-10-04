@@ -1,5 +1,5 @@
 //
-//  ___FILEBASENAME___InputInteractor.swift
+//  ___VARIABLE_sceneName___InputInteractor.swift
 //  ___PROJECTNAME___
 //
 //  Created by ___FULLUSERNAME___ on ___DATE___.
@@ -8,11 +8,11 @@
 
 import Foundation
 
-public class ___FILEBASENAME___InputInteractor : ___FILEBASENAME___Input {
+public class ___VARIABLE_sceneName___InputInteractor : ___VARIABLE_sceneName___Input {
     
-    fileprivate weak var output : ___FILEBASENAME___Output?
+    fileprivate weak var output : ___VARIABLE_sceneName___Output?
     
-    public func inject(output:___FILEBASENAME___Output?) {
+    public func inject(output:___VARIABLE_sceneName___Output?) {
         self.output = output
     }
 

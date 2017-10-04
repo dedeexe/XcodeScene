@@ -1,5 +1,5 @@
 //
-//  ___FILEBASENAME___Presenter
+//  ___VARIABLE_sceneName___Presenter
 //  ___PROJECTNAME___
 //
 //  Created by ___FULLUSERNAME___ on ___DATE___.
@@ -8,15 +8,15 @@
 
 import Foundation
 
-public class ___FILEBASENAME___Presenter {
+public class ___VARIABLE_sceneName___Presenter {
     
-    fileprivate weak var view   : ___FILEBASENAME___View?
-    fileprivate var interactor  : ___FILEBASENAME___Input?
-    fileprivate var router      : ___FILEBASENAME___Wireframe?
+    fileprivate weak var view   : ___VARIABLE_sceneName___View?
+    fileprivate var interactor  : ___VARIABLE_sceneName___Input?
+    fileprivate var router      : ___VARIABLE_sceneName___Wireframe?
     
     public init() {}
     
-    public func inject(view: ___FILEBASENAME___View?, interactor:___FILEBASENAME___Input?, router:___FILEBASENAME___Wireframe?) {
+    public func inject(view: ___VARIABLE_sceneName___View?, interactor:___VARIABLE_sceneName___Input?, router:___VARIABLE_sceneName___Wireframe?) {
         self.view = view
         self.interactor = interactor
         self.router = router
@@ -32,7 +32,7 @@ public class ___FILEBASENAME___Presenter {
 
 
 //MARK: - Presenter Delegates
-extension ___FILEBASENAME___Presenter : ___FILEBASENAME___Module {
+extension ___VARIABLE_sceneName___Presenter : ___VARIABLE_sceneName___Module {
     public func doSomething() {
         assertDependencies()
         //Implements presenter actions here
@@ -41,7 +41,7 @@ extension ___FILEBASENAME___Presenter : ___FILEBASENAME___Module {
 }
 
 //MARK: - Output Interactor Delegate
-extension ___FILEBASENAME___Presenter : ___FILEBASENAME___Output {
+extension ___VARIABLE_sceneName___Presenter : ___VARIABLE_sceneName___Output {
     public func fetch(something: String) {
         assertDependencies()
         //Handle fetched data here

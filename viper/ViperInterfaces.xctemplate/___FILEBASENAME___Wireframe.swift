@@ -1,5 +1,5 @@
 //
-//  ___FILEBASENAME___Wireframe.swift
+//  ___VARIABLE_sceneName___Wireframe.swift
 //  ___PROJECTNAME___
 //
 //  Created by ___FULLUSERNAME___ on ___DATE___.
@@ -8,6 +8,6 @@
 
 import UIKit
 
-public protocol ___FILEBASENAME___Wireframe : class {
+public protocol ___VARIABLE_sceneName___Wireframe : class {
     func gotoSomeplace()
 }

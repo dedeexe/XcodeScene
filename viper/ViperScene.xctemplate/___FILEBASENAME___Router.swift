@@ -1,5 +1,5 @@
 //
-//  ___FILEBASENAME___Router.swift
+//  ___VARIABLE_sceneName___Router.swift
 //  ___PROJECTNAME___
 //
 //  Created by ___FULLUSERNAME___ on ___DATE___.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class ___FILEBASENAME___Router {
+public class ___VARIABLE_sceneName___Router {
     
     fileprivate weak var viewController : UIViewController?
     
@@ -29,7 +29,7 @@ public class ___FILEBASENAME___Router {
 }
 
 //MARK: - Wireframe Delegate
-extension ___FILEBASENAME___Router : ___FILEBASENAME___Wireframe {
+extension ___VARIABLE_sceneName___Router : ___VARIABLE_sceneName___Wireframe {
     public func gotoSomeplace() {
         //Implement the route here
     }

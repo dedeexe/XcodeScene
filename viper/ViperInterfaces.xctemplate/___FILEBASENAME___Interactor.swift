@@ -1,5 +1,5 @@
 //
-//  ___FILEBASENAME___Interactor.swift
+//  ___VARIABLE_sceneName___Interactor.swift
 //  ___PROJECTNAME___
 //
 //  Created by ___FULLUSERNAME___ on ___DATE___.
@@ -8,10 +8,10 @@
 
 import Foundation
 
-public protocol ___FILEBASENAME___Input : class {
+public protocol ___VARIABLE_sceneName___Input : class {
     func get(something:String)
 }
 
-public protocol ___FILEBASENAME___Output : class {
+public protocol ___VARIABLE_sceneName___Output : class {
     func fetch(something:String)
 }
