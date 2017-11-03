@@ -3,7 +3,7 @@
 //  ___PROJECTNAME___
 //
 //  Created by ___FULLUSERNAME___ on ___DATE___.
-//___COPYRIGHT___
+//  ___COPYRIGHT___
 //
 
 import Foundation
@@ -31,7 +31,7 @@ public class ___VARIABLE_sceneName___Presenter {
 }
 
 
-//MARK: - Presenter Delegates
+// MARK: - Presenter Delegates
 extension ___VARIABLE_sceneName___Presenter : ___VARIABLE_sceneName___Module {
     public func doSomething() {
         assertDependencies()
@@ -40,7 +40,7 @@ extension ___VARIABLE_sceneName___Presenter : ___VARIABLE_sceneName___Module {
 
 }
 
-//MARK: - Output Interactor Delegate
+// MARK: - Output Interactor Delegate
 extension ___VARIABLE_sceneName___Presenter : ___VARIABLE_sceneName___Output {
     public func fetch(something: String) {
         assertDependencies()

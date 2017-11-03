@@ -3,7 +3,7 @@
 //  ___PROJECTNAME___
 //
 //  Created by ___FULLUSERNAME___ on ___DATE___.
-//___COPYRIGHT___
+//  ___COPYRIGHT___
 //
 
 import UIKit
@@ -28,7 +28,7 @@ public class ___VARIABLE_sceneName___Router {
     
 }
 
-//MARK: - Wireframe Delegate
+// MARK: - Wireframe Delegate
 extension ___VARIABLE_sceneName___Router : ___VARIABLE_sceneName___Wireframe {
     public func gotoSomeplace() {
         //Implement the route here
