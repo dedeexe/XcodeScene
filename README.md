@@ -5,7 +5,7 @@ This project set XCode to create templates for VIPER.
 ## Instalation
 
 1. Download project
-2. Copy Template directory *~/Library/Developer/Xcode/Templates*
+2. Copy Template directory named *VIPER* to *~/Library/Developer/Xcode/Templates*
 
 ## Using
 
