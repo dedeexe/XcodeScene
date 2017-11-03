@@ -12,7 +12,7 @@ public class ___VARIABLE_sceneName___Configurator {
     
     public init() {}
     
-    func create() -> ___VARIABLE_sceneName___ViewController {
+    public func create() -> ___VARIABLE_sceneName___ViewController {
         
 //        Use this implementation
 //        guard let viewController = StoryboardIdentifier.authentication.storyboard?.instantiateViewController(withIdentifier: "___VARIABLE_sceneName___ViewController") as? ___VARIABLE_sceneName___ViewController else {
@@ -36,4 +36,3 @@ public class ___VARIABLE_sceneName___Configurator {
     }
     
 }
-

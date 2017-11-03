@@ -8,7 +8,7 @@
 
 import Foundation
 
-public class ___VARIABLE_sceneName___InputInteractor : ___VARIABLE_sceneName___Input {
+public class ___VARIABLE_sceneName___InputInteractor {
     
     fileprivate weak var output : ___VARIABLE_sceneName___Output?
     
@@ -19,10 +19,15 @@ public class ___VARIABLE_sceneName___InputInteractor : ___VARIABLE_sceneName___I
     private func assertDependencies() {
    		assert(output != nil, "Did not set output to the input interactor")
     }
+
+}
+
+// MARK: - Input Interactor
+extension ___VARIABLE_sceneName___InputInteractor : ___VARIABLE_sceneName___Input {
     
     public func get(something:String) {
         assertDependencies()
         //Implement how to get data here
     }
-
+    
 }

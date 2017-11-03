@@ -8,20 +8,19 @@
 
 import UIKit
 
-class ___VARIABLE_sceneName___ViewController: UIViewController {
+public class ___VARIABLE_sceneName___ViewController: UIViewController {
 
     fileprivate var presenter : ___VARIABLE_sceneName___Module?
     
-    override func viewDidLoad() {
+    public override func viewDidLoad() {
         super.viewDidLoad()
         assertDependencies()
     	setup()
 	}
 
-    override func didReceiveMemoryWarning() {
+    public override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
-    
     
     public func inject(presenter:___VARIABLE_sceneName___Presenter?) {
         self.presenter = presenter
@@ -42,7 +41,7 @@ class ___VARIABLE_sceneName___ViewController: UIViewController {
 
 // MARK: - View Delegate
 extension ___VARIABLE_sceneName___ViewController : ___VARIABLE_sceneName___View {
-    func show(something: String) {
+    public func show(something: String) {
         //Implement what to show here
     }
 }
@@ -61,7 +60,7 @@ extension ___VARIABLE_sceneName___ViewController {
         nc.removeObserver(self, name: NSNotification.Name.UIKeyboardWillHide, object: nil)
     }
     
-    func showKeyboard(notification:Notification) {
+    @objc func showKeyboard(notification:Notification) {
         if let frame = notification.userInfo?["UIKeyboardBoundsUserInfoKey"] as? NSValue {
             let finalFrame = frame.cgRectValue
             let frameHeight = finalFrame.height
@@ -70,7 +69,7 @@ extension ___VARIABLE_sceneName___ViewController {
         }
     }
     
-    func hideKeyboard(notification:Notification) {
+    @objc func hideKeyboard(notification:Notification) {
         if let frame = notification.userInfo?["UIKeyboardBoundsUserInfoKey"] as? NSValue {
             let finalFrame = frame.cgRectValue
             let frameHeight = finalFrame.height

@@ -30,14 +30,12 @@ public class ___VARIABLE_sceneName___Presenter {
     
 }
 
-
 // MARK: - Presenter Delegates
 extension ___VARIABLE_sceneName___Presenter : ___VARIABLE_sceneName___Module {
     public func doSomething() {
         assertDependencies()
         //Implements presenter actions here
     }
-
 }
 
 // MARK: - Output Interactor Delegate
